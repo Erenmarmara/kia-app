@@ -75,7 +75,7 @@ export function PersonsClient() {
     items: [],
     total: 0,
     page: 1,
-    pageSize: 50,
+    pageSize: 200,
     pageCount: 1,
     capabilities: { canCreate: false, writableRanges: [] },
   });
