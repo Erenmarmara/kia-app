@@ -7,7 +7,7 @@ import { normalizeSearchText } from "@/lib/search";
 import { hasPermission, PERMISSIONS, ROLE_CODES } from "@/lib/permissions";
 import { apiError, personInputSchema } from "@/lib/validation";
 
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 200;
 const SORT_KEYS = new Set([
   "extSourceId",
   "name",
